@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     
+     
+   }
+   
+   #container {
+     text-align:center;
+     
+   }
+   
+   #hexColor {
+     text-transform:capitalize;
+     
+   }
+   
+   #hex {
+     font-size:3rem;
+   }
+   
+   #hexbtn {
+     color:white;
+     border: 3px solid black;
+     border-radius:7px;
+     background: rgba(0, 0, 0, 0.6);
+     font-size:1.6rem;
+     padding:1.25rem 1.5rem;
+     outline:none;
+     cursor:pointer;
+     text-transform:capitalize;
+   
+     
+     
+   }
+   
+   #hexbtn:hover {
+     background:   rgba(0, 0, 0);
+     
+   
+   }
